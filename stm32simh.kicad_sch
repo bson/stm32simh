@@ -11,6 +11,44 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 41.91 135.89)
+		(size 27.94 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03bb59c9-5fb1-4715-a4e0-3fd6ca6378ac")
+		(property "Sheetname" "Unused"
+			(at 41.91 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "unused.kicad_sch"
+			(at 41.91 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32simh"
+				(path "/114c4e64-0fac-420a-8fa7-2afba1510345"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 41.91 77.47)
 		(size 27.94 12.7)
 		(fields_autoplaced yes)
@@ -60,7 +98,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b46ca690-af5f-4d3f-b72c-fd8e1f8b95fc")
-		(property "Sheetname" "Debug"
+		(property "Sheetname" "SDIO, Debug"
 			(at 41.91 105.9684 0)
 			(effects
 				(font
@@ -96,7 +134,7 @@
 		)
 	)
 	(sheet
-		(at 41.91 45.72)
+		(at 43.18 48.26)
 		(size 27.94 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -108,7 +146,7 @@
 		)
 		(uuid "fbfd422a-57f1-4eb0-a9e8-3ef120646a70")
 		(property "Sheetname" "Power, Reset, Config, OSC, VREF"
-			(at 41.91 45.0084 0)
+			(at 43.18 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -117,7 +155,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 41.91 59.0046 0)
+			(at 43.18 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
