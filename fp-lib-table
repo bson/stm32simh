@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SOP50P2000X120-48N")(type "KiCad")(uri "${KIPRJMOD}/SOP50P2000X120-48N.pretty")(options "")(descr ""))
+)

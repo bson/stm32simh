@@ -1,0 +1,141 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "114c4e64-0fac-420a-8fa7-2afba1510345")
+	(paper "A4")
+	(title_block
+		(title "stm32simh")
+		(date "2024-10-06")
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 41.91 77.47)
+		(size 27.94 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ad30038-fcaf-49a4-8185-b0d96cb7ca2d")
+		(property "Sheetname" "SRAM"
+			(at 41.91 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sram.kicad_sch"
+			(at 41.91 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32simh"
+				(path "/114c4e64-0fac-420a-8fa7-2afba1510345"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 106.68)
+		(size 29.21 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b46ca690-af5f-4d3f-b72c-fd8e1f8b95fc")
+		(property "Sheetname" "Debug"
+			(at 41.91 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "swd.kicad_sch"
+			(at 41.91 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 41.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "stm32simh"
+				(path "/114c4e64-0fac-420a-8fa7-2afba1510345"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 45.72)
+		(size 27.94 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fbfd422a-57f1-4eb0-a9e8-3ef120646a70")
+		(property "Sheetname" "Power, Reset, Config, OSC, VREF"
+			(at 41.91 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 41.91 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32simh"
+				(path "/114c4e64-0fac-420a-8fa7-2afba1510345"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

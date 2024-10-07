@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stm32h753")(type "KiCad")(uri "${KIPRJMOD}/stm32h753.kicad_sym")(options "")(descr ""))
+  (lib (name "IS61WV204816BLL-10TLI")(type "KiCad")(uri "${KIPRJMOD}/IS61WV204816BLL-10TLI.kicad_sym")(options "")(descr ""))
+)
