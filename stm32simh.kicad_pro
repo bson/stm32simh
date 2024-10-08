@@ -660,7 +660,7 @@
     ],
     [
       "fbfd422a-57f1-4eb0-a9e8-3ef120646a70",
-      "Power, Reset, Config, OSC, VREF"
+      "STM32 Suppler, Reset, Config, OSC, VREF"
     ],
     [
       "7ad30038-fcaf-49a4-8185-b0d96cb7ca2d",
@@ -673,6 +673,14 @@
     [
       "03bb59c9-5fb1-4715-a4e0-3fd6ca6378ac",
       "Unused"
+    ],
+    [
+      "22be1df5-4f33-4b66-a612-d7ff2ae08e59",
+      "UART, UCB VCP, VBUS"
+    ],
+    [
+      "67e72ece-c364-48a4-85a8-97f498cc28de",
+      "Ethernet"
     ]
   ],
   "text_variables": {}

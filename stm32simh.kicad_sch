@@ -10,6 +10,62 @@
 		(rev "1")
 	)
 	(lib_symbols)
+	(junction
+		(at 82.55 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e0afc07-ed7a-49ae-a1ed-e333a3518f2a")
+	)
+	(wire
+		(pts
+			(xy 82.55 111.76) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d3d87c7-b0d1-4d93-89fb-655b6679b765")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.82) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5941bff0-7d2a-4ab5-acfa-e9a1a9312ea9")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87484bbc-0132-4cb6-8a4c-0b9e9bd82f52")
+	)
+	(wire
+		(pts
+			(xy 82.55 54.61) (xy 69.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bda5f2-bad4-4610-a9af-4d899fbdf088")
+	)
+	(wire
+		(pts
+			(xy 69.85 111.76) (xy 82.55 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df80ea2-77fa-4cf8-b3f7-adfc705e07bd")
+	)
 	(sheet
 		(at 41.91 135.89)
 		(size 27.94 11.43)
@@ -44,6 +100,92 @@
 			(project "stm32simh"
 				(path "/114c4e64-0fac-420a-8fa7-2afba1510345"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 48.26)
+		(size 27.94 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22be1df5-4f33-4b66-a612-d7ff2ae08e59")
+		(property "Sheetname" "UART, UCB VCP, VBUS"
+			(at 96.52 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "serial.kicad_sch"
+			(at 96.52 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stm32simh"
+				(path "/114c4e64-0fac-420a-8fa7-2afba1510345"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 77.47)
+		(size 27.94 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67e72ece-c364-48a4-85a8-97f498cc28de")
+		(property "Sheetname" "Ethernet"
+			(at 96.52 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 96.52 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 96.52 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57091ffc-8054-4fac-8e2e-227619b1bcfd")
+		)
+		(instances
+			(project "stm32simh"
+				(path "/114c4e64-0fac-420a-8fa7-2afba1510345"
+					(page "7")
 				)
 			)
 		)
@@ -88,7 +230,7 @@
 	)
 	(sheet
 		(at 41.91 106.68)
-		(size 29.21 11.43)
+		(size 27.94 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -125,6 +267,16 @@
 				(hide yes)
 			)
 		)
+		(pin "~{RESET}" bidirectional
+			(at 69.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b48134a-4690-44c1-a51a-25d1c52c1567")
+		)
 		(instances
 			(project "stm32simh"
 				(path "/114c4e64-0fac-420a-8fa7-2afba1510345"
@@ -134,7 +286,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 48.26)
+		(at 41.91 48.26)
 		(size 27.94 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -145,8 +297,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fbfd422a-57f1-4eb0-a9e8-3ef120646a70")
-		(property "Sheetname" "Power, Reset, Config, OSC, VREF"
-			(at 43.18 47.5484 0)
+		(property "Sheetname" "STM32 Suppler, Reset, Config, OSC, VREF"
+			(at 41.91 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,13 +307,23 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 43.18 61.5446 0)
+			(at 41.91 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "~{RESET}" output
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c188a1d3-defc-4737-a6d7-7c4fe46ff48b")
 		)
 		(instances
 			(project "stm32simh"
