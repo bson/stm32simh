@@ -963,6 +963,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -5088,6 +5233,12 @@
 		)
 	)
 	(junction
+		(at 57.15 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01d520a3-f37f-47e8-88ae-74b401c35992")
+	)
+	(junction
 		(at 132.08 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5140,6 +5291,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33afb33b-1ae1-4f97-9277-b8a3d68ff7df")
+	)
+	(junction
+		(at 52.07 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d6a278d-9312-4aaf-aeca-0e19e7725ca8")
 	)
 	(junction
 		(at 215.9 45.72)
@@ -5437,7 +5594,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 165.1) (xy 57.15 167.64)
+			(xy 57.15 165.1) (xy 57.15 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5567,7 +5724,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 156.21) (xy 57.15 156.21)
+			(xy 46.99 156.21) (xy 52.07 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5654,6 +5811,16 @@
 			(type default)
 		)
 		(uuid "292603bb-b5f9-496d-8247-3ccbd1f6ca11")
+	)
+	(wire
+		(pts
+			(xy 52.07 167.64) (xy 52.07 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a11b9e8-7bf0-4b50-9595-072f90b4a8a2")
 	)
 	(wire
 		(pts
@@ -6074,6 +6241,16 @@
 			(type default)
 		)
 		(uuid "6d657c03-e144-42df-a216-926789b862b0")
+	)
+	(wire
+		(pts
+			(xy 52.07 156.21) (xy 52.07 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed42643-65cb-450d-8d43-476a83c245aa")
 	)
 	(wire
 		(pts
@@ -6567,6 +6744,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 156.21) (xy 57.15 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c378d1-424b-4376-96f6-ab7124661dd7")
+	)
+	(wire
+		(pts
 			(xy 147.32 135.89) (xy 151.13 135.89)
 		)
 		(stroke
@@ -6574,6 +6761,16 @@
 			(type default)
 		)
 		(uuid "c6eac28f-ec7e-4d98-9227-54ef99535b84")
+	)
+	(wire
+		(pts
+			(xy 52.07 168.91) (xy 57.15 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94bd889-b26e-4309-8cee-dcc778d2ce5c")
 	)
 	(wire
 		(pts
@@ -6857,6 +7054,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 168.91) (xy 57.15 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18ad73d-b4b0-4d42-b9e5-d1ff9f63a78d")
+	)
+	(wire
+		(pts
 			(xy 111.76 49.53) (xy 127 49.53)
 		)
 		(stroke
@@ -7040,6 +7247,76 @@
 			(justify right)
 		)
 		(uuid "9702370a-6c78-4c54-bfb3-359fda665849")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 52.07 162.56 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f5bc8d5-17be-4269-8ef2-ebbd322b3102")
+		(property "Reference" "SW1"
+			(at 42.672 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RESET"
+			(at 42.672 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+			(at 46.99 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a52a4fed-2a5e-41db-a8dc-4a26cf0304ca")
+		)
+		(pin "1"
+			(uuid "42a47bca-fdcd-401c-a73c-56eba1f58587")
+		)
+		(instances
+			(project "stm32simh"
+				(path "/114c4e64-0fac-420a-8fa7-2afba1510345/fbfd422a-57f1-4eb0-a9e8-3ef120646a70"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -7933,7 +8210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 167.64 0)
+		(at 57.15 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7942,7 +8219,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c0e242f-73d3-4c03-997f-ad10c7e72032")
 		(property "Reference" "#PWR011"
-			(at 57.15 173.99 0)
+			(at 57.15 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +8228,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 172.72 0)
+			(at 57.15 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +8236,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 167.64 0)
+			(at 57.15 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 167.64 0)
+			(at 57.15 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +8254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 167.64 0)
+			(at 57.15 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
