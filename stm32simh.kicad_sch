@@ -11,6 +11,12 @@
 	)
 	(lib_symbols)
 	(junction
+		(at 82.55 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c679497-0085-4ffe-b2d2-598ca3bcd96f")
+	)
+	(junction
 		(at 82.55 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -35,6 +41,16 @@
 			(type default)
 		)
 		(uuid "5941bff0-7d2a-4ab5-acfa-e9a1a9312ea9")
+	)
+	(wire
+		(pts
+			(xy 82.55 54.61) (xy 96.52 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84469719-62a7-4de3-b544-6fb82d54fe4e")
 	)
 	(wire
 		(pts
@@ -133,6 +149,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "~{RESET}" input
+			(at 96.52 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9a1b4bb6-1bd6-4645-8f69-99edc948cfba")
 		)
 		(instances
 			(project "stm32simh"
@@ -297,7 +323,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fbfd422a-57f1-4eb0-a9e8-3ef120646a70")
-		(property "Sheetname" "STM32 Suppler, Reset, Config, OSC, VREF"
+		(property "Sheetname" "STM32 Supplies, Reset, Config, OSC, VREF"
 			(at 41.91 47.5484 0)
 			(effects
 				(font

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "SOP50P2000X120-48N")(type "KiCad")(uri "${KIPRJMOD}/SOP50P2000X120-48N.pretty")(options "")(descr ""))
   (lib (name "DM3AT")(type "KiCad")(uri "${KIPRJMOD}/DM3AT.pretty")(options "")(descr ""))
+  (lib (name "CP2102N-QFN")(type "KiCad")(uri "${KIPRJMOD}/CP2102N-QFN.pretty")(options "")(descr ""))
 )

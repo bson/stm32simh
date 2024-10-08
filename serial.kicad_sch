@@ -7633,6 +7633,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 99.06) (xy 163.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce5e067-e381-4041-ae2c-6efd468b5bd3")
+	)
+	(wire
+		(pts
 			(xy 77.47 151.13) (xy 77.47 124.46)
 		)
 		(stroke
@@ -7833,6 +7843,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 69.85) (xy 163.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef90371-c6f2-490b-82d0-bcab7aa9ce99")
+	)
+	(wire
+		(pts
 			(xy 58.42 43.18) (xy 58.42 48.26)
 		)
 		(stroke
@@ -7920,16 +7940,6 @@
 			(type default)
 		)
 		(uuid "6be06d59-6fed-4393-b20d-ea1507bc469e")
-	)
-	(wire
-		(pts
-			(xy 163.83 88.9) (xy 163.83 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d838944-932c-42c1-8504-bc99eeace2f0")
 	)
 	(wire
 		(pts
@@ -8513,16 +8523,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 95.25) (xy 163.83 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93504b6-e2ef-4b48-9719-a0312c81143b")
-	)
-	(wire
-		(pts
 			(xy 58.42 27.94) (xy 58.42 35.56)
 		)
 		(stroke
@@ -8623,6 +8623,18 @@
 			(justify left bottom)
 		)
 		(uuid "77b1603e-e1d0-4165-8955-f7de2a524682")
+	)
+	(hierarchical_label "~{RESET}"
+		(shape input)
+		(at 49.53 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7cf9714b-35f7-4554-82ac-4c47a4277bad")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -11764,85 +11776,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 163.83 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0353c72-e38f-4c9a-8790-590be6229146")
-		(property "Reference" "R10"
-			(at 166.37 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15k"
-			(at 166.37 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C375970"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a0b857b-d4a2-49b7-bc31-fae4d10fcd0f")
-		)
-		(pin "1"
-			(uuid "bd33e8af-c64f-425c-bfed-fb759864df9a")
-		)
-		(instances
-			(project "stm32simh"
-				(path "/114c4e64-0fac-420a-8fa7-2afba1510345/22be1df5-4f33-4b66-a612-d7ff2ae08e59"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Part-DB:APTD1608LZGCK")
 		(at 107.95 128.27 270)
 		(mirror x)
@@ -12228,72 +12161,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 163.83 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce7ef990-916f-4ffc-8e05-195f22d05f23")
-		(property "Reference" "#PWR040"
-			(at 163.83 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 163.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.83 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab0b2bc1-c475-4885-81a1-2ee47689bf40")
-		)
-		(instances
-			(project "stm32simh"
-				(path "/114c4e64-0fac-420a-8fa7-2afba1510345/22be1df5-4f33-4b66-a612-d7ff2ae08e59"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 182.88 82.55 0)
 		(unit 1)
@@ -12531,7 +12398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "CP2102N-QFN:CP2102N-QFN20"
 			(at 118.11 148.59 0)
 			(effects
 				(font
