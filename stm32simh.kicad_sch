@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "114c4e64-0fac-420a-8fa7-2afba1510345")
 	(paper "A4")
 	(title_block
@@ -91,6 +91,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -488,6 +489,10 @@
 	(sheet
 		(at 41.91 135.89)
 		(size 27.94 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -526,6 +531,10 @@
 	(sheet
 		(at 96.52 48.26)
 		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -555,13 +564,13 @@
 		)
 		(pin "~{RESET}" input
 			(at 96.52 54.61 180)
+			(uuid "9a1b4bb6-1bd6-4645-8f69-99edc948cfba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9a1b4bb6-1bd6-4645-8f69-99edc948cfba")
 		)
 		(instances
 			(project "stm32simh"
@@ -574,6 +583,10 @@
 	(sheet
 		(at 96.52 77.47)
 		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -603,13 +616,13 @@
 		)
 		(pin "~{RESET}" input
 			(at 96.52 83.82 180)
+			(uuid "57091ffc-8054-4fac-8e2e-227619b1bcfd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "57091ffc-8054-4fac-8e2e-227619b1bcfd")
 		)
 		(instances
 			(project "stm32simh"
@@ -622,6 +635,10 @@
 	(sheet
 		(at 41.91 77.47)
 		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -660,6 +677,10 @@
 	(sheet
 		(at 41.91 106.68)
 		(size 27.94 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -698,13 +719,13 @@
 		)
 		(pin "~{RESET}" bidirectional
 			(at 69.85 111.76 0)
+			(uuid "2b48134a-4690-44c1-a51a-25d1c52c1567")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2b48134a-4690-44c1-a51a-25d1c52c1567")
 		)
 		(instances
 			(project "stm32simh"
@@ -717,6 +738,10 @@
 	(sheet
 		(at 41.91 48.26)
 		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -746,13 +771,13 @@
 		)
 		(pin "~{RESET}" output
 			(at 69.85 54.61 0)
+			(uuid "c188a1d3-defc-4737-a6d7-7c4fe46ff48b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c188a1d3-defc-4737-a6d7-7c4fe46ff48b")
 		)
 		(instances
 			(project "stm32simh"
@@ -767,4 +792,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
