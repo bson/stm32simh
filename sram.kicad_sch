@@ -8984,7 +8984,7 @@
 		(lib_id "stm32h753:STM32H753ZITx")
 		(at 73.66 99.06 0)
 		(unit 2)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
